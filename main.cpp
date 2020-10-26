@@ -40,7 +40,9 @@ int main()
 		while (window.pollEvent(event))
 		{
 			if (event.type == Event::Closed)
+			{
 				window.close();
+			}
 		}
 		window.clear();
 		window.draw(treeBranches);
