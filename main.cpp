@@ -4,8 +4,8 @@
 using namespace sf;
 
 constexpr double PI = 3.14159;
-constexpr double REDUC = 0.69;
-constexpr double ANGLE = 35.;
+constexpr double REDUC = 0.74;
+constexpr double ANGLE = 35;
 
 void createTree(VertexArray& treeArr, Vector2f next, float angle, float length)
 {
